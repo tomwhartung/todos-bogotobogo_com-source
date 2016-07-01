@@ -29,3 +29,15 @@
     app.listen(port);
     console.log("App listening on port : " + port);
 
+//
+// Assuming we need to add this.  The tutorial is a little confusing here.
+// It mentions that "We started off by creating a Todo schema and model:"
+// so I thought this was done.
+// Further down it mentions this (see question 1 in the README file),
+// so I am inferring we need to add this code here.
+// If it gives an error, well now you know where it came from!
+//
+var Todo = mongoose.model('Todo', {
+        text : String
+    });
+
