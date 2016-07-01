@@ -1,9 +1,43 @@
 
 ## Trying out this tutorial:
 
-http://www.bogotobogo.com/MEAN-Stack/MEAN-Stack-MongoDB-ExpressJS-AngularJS-NodeJS-ToDoList-App.php
+o http://www.bogotobogo.com/MEAN-Stack/MEAN-Stack-MongoDB-ExpressJS-AngularJS-NodeJS-ToDoList-App.php
 
-## Purposes
+And making notes of the blow-by-blow.
+
+### Other ToDo Tutorials I am looking At
+
+Have already tried this one:
+
+o https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angular
+
+And it didn't work, probably because it wants to use database at https://modulus.io/ .
+
+o I get this error: `MongoError: auth fails`
+
+Also, there are some others; I will keep trying them until I figure out how to get it to work.
+
+Using this README and repo to track what I am doing, where I am getting the code from, etc.
+
+
+### Questions
+
+1. Under the
+
+> Recall we created our model earlier with:
+> var Todo = mongoose.model
+> Now, we can use Todo to GET, POST, and DELETE.
+
+I cannot recall doing that, or see any evidence of it in the code!
+
+Thinking they maybe got it from a different tutorial - I am seeing some parts of this that look like they were copied out of the scotch.io tutorial tried earlier.
+
+But I am not seeing it there, either.  Carrying on with this one, for now.  There are other tutorials but we have to start somewhere, so....
+
+2. ............
+
+
+### Purposes of This Exercise
 
 I have a client that may be interested in something like this!
 
