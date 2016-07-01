@@ -5,6 +5,12 @@ o http://www.bogotobogo.com/MEAN-Stack/MEAN-Stack-MongoDB-ExpressJS-AngularJS-No
 
 And making notes of the blow-by-blow.
 
+Interesting, we can run this in debug mode with this command:
+
+o DEBUG=ToDo:* npm start
+
+Learn something new every day!
+
 ### Other ToDo Tutorials I am looking At
 
 Have already tried this one:
@@ -33,6 +39,8 @@ I cannot recall doing that, or see any evidence of it in the code!
 Thinking they maybe got it from a different tutorial - I am seeing some parts of this that look like they were copied out of the scotch.io tutorial tried earlier.
 
 But I am not seeing it there, either.  Carrying on with this one, for now.  There are other tutorials but we have to start somewhere, so....
+
+*** I think this tutorial is referring to an earlier one.  See comments in server.js for more info.  ***
 
 2. ............
 
