@@ -3,6 +3,12 @@
 
 http://www.bogotobogo.com/MEAN-Stack/MEAN-Stack-MongoDB-ExpressJS-AngularJS-NodeJS-ToDoList-App.php
 
+## Purposes
+
+I have a client that may be interested in something like this!
+
+But also they mention this stack in the job description for the Galvanize Full Stack Instructor, and it's just about the only thing I am missing, so it shouldn't hurt to take a look-see.
+
 ### Results of scaffolding.
 
 Note the warnings concerning:
