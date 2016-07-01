@@ -37,7 +37,12 @@
 // so I am inferring we need to add this code here.
 // If it gives an error, well now you know where it came from!
 //
-var Todo = mongoose.model('Todo', {
-        text : String
-    });
+// Well that did not work very well!
+//   Gives this error:
+//      OverwriteModelError: Cannot overwrite `Todo` model once compiled.
+// This tutorial is under suspicion!
+//
+// var Todo = mongoose.model('Todo', {
+//         text : String
+//     });
 
