@@ -3,6 +3,12 @@
 
 This can be a good test of your node.js install, and a good starting point for a more sophisticated MEAN stack project.
 
+### Trying out this tutorial:
+
+o http://www.bogotobogo.com/MEAN-Stack/MEAN-Stack-MongoDB-ExpressJS-AngularJS-NodeJS-ToDoList-App.php
+
+And making notes of the blow-by-blow.
+
 ### Quickly Get It Running
 
 Quick steps to get this working, so you don't have to go through the tutorial if you've already done it, e.g., on another host.
@@ -10,22 +16,39 @@ Quick steps to get this working, so you don't have to go through the tutorial if
 We are using ubuntu, both 14.04 and 16.04 (for now anyway).
 
 1. Install node, npm, and express
-1.a. For details on Ubuntu  14.04, see the tutorial
-1.b. For details on Ubuntu  16.04, see ... (TBD)
-2. git clone this repo
-3. express ToDo
-4. cd ToDo
-5. npm init
-6. node server.js          // OR...
+1.a. For details on Ubuntu 14.04, see the tutorial
+1.b. For details on Ubuntu 16.04, see "Installing express on Ubuntu 16.04" below
+2. git clone git@github.com:tomwhartung/todos-bogotobogo_com-source.git
+3. Run these commands
+```
+   mkdir todos-bogotobogo_com
+   cd todos-bogotobogo_com
+   express ToDo
+   cp ../todos-bogotobogo_com-source/* ToDo
+   cd ToDo
+   npm install
+   node server.js          // OR...
    DEBUG=ToDo:* npm start  // To run in debug mode
-7. Load in browser:
-   
+```
+4. Install mongo-db
+4.a. For details on Ubuntu 14.04, see:
+    https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
+4.b. For details on Ubuntu 16.04, see:
+    https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
+5. Load in browser:
+   http://localhost:8888/
 
-### Trying out this tutorial:
+#### Installing express on Ubuntu 16.04
 
-o http://www.bogotobogo.com/MEAN-Stack/MEAN-Stack-MongoDB-ExpressJS-AngularJS-NodeJS-ToDoList-App.php
+Run these commands as root:
 
-And making notes of the blow-by-blow.
+```
+// npm install express             // I do not think this is needed
+npm install -g express-generator   // allows running from command line
+cd /usr/bin
+ln -s /usr/local/lib/node_modules/express-generator/bin/express .
+which express
+```
 
 ### Other ToDo Tutorials I am looking At
 
