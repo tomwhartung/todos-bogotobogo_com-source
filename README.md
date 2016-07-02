@@ -15,27 +15,27 @@ Quick steps to get this working, so you don't have to go through the tutorial if
 
 We are using ubuntu, both 14.04 and 16.04 (for now anyway).
 
-1. Install node, npm, and express
+(1) Install node, npm, and express
   * For details on Ubuntu 14.04, see the tutorial
   * For details on Ubuntu 16.04, see "Installing express on Ubuntu 16.04" below
-2. git clone git@github.com:tomwhartung/todos-bogotobogo_com-source.git
-3. Run these commands
-    ```
-        mkdir todos-bogotobogo_com
-        cd todos-bogotobogo_com
-        express ToDo
-        cp ../todos-bogotobogo_com-source/* ToDo
-        cd ToDo
-        npm install
-        node server.js          // OR...
-        DEBUG=ToDo:* npm start  // To run in debug mode
-    ```
-4. Install mongo-db
+(2) git clone git@github.com:tomwhartung/todos-bogotobogo_com-source.git
+(3) Run these commands
+```
+mkdir todos-bogotobogo_com
+cd todos-bogotobogo_com
+express ToDo
+cp ../todos-bogotobogo_com-source/* ToDo
+cd ToDo
+npm install
+node server.js          // OR...
+DEBUG=ToDo:* npm start  // To run in debug mode
+```
+(4) Install mongo-db
   * For details on Ubuntu 14.04, see:
     https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
   * For details on Ubuntu 16.04, see:
     https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
-5. Load in browser:
+(5) Load in browser:
    http://localhost:8888/
 
 #### Installing express on Ubuntu 16.04
