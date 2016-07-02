@@ -20,7 +20,7 @@ We are using ubuntu, both 14.04 and 16.04 (for now anyway).
   * For details on Ubuntu 16.04, see "Installing express on Ubuntu 16.04" below
 2. git clone git@github.com:tomwhartung/todos-bogotobogo_com-source.git
 3. Run these commands
-```
+   ```
    mkdir todos-bogotobogo_com
    cd todos-bogotobogo_com
    express ToDo
@@ -29,7 +29,7 @@ We are using ubuntu, both 14.04 and 16.04 (for now anyway).
    npm install
    node server.js          // OR...
    DEBUG=ToDo:* npm start  // To run in debug mode
-```
+   ```
 4. Install mongo-db
   * For details on Ubuntu 14.04, see:
     https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
@@ -40,7 +40,7 @@ We are using ubuntu, both 14.04 and 16.04 (for now anyway).
 
 #### Installing express on Ubuntu 16.04
 
-Run these commands as root:
+To install express on Ubuntu 16.04, run these commands as root:
 
 ```
 // npm install express             // I do not think this is needed
