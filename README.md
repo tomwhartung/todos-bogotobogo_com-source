@@ -1,15 +1,31 @@
 
-## Trying out this tutorial:
+## todos-bogotobogo_com-source
+
+This can be a good test of your node.js install, and a good starting point for a more sophisticated MEAN stack project.
+
+### Quickly Get It Running
+
+Quick steps to get this working, so you don't have to go through the tutorial if you've already done it, e.g., on another host.
+
+We are using ubuntu, both 14.04 and 16.04 (for now anyway).
+
+1. Install node, npm, and express
+1.a. For details on Ubuntu  14.04, see the tutorial
+1.b. For details on Ubuntu  16.04, see ... (TBD)
+2. git clone this repo
+3. express ToDo
+4. cd ToDo
+5. npm init
+6. node server.js          // OR...
+   DEBUG=ToDo:* npm start  // To run in debug mode
+7. Load in browser:
+   
+
+### Trying out this tutorial:
 
 o http://www.bogotobogo.com/MEAN-Stack/MEAN-Stack-MongoDB-ExpressJS-AngularJS-NodeJS-ToDoList-App.php
 
 And making notes of the blow-by-blow.
-
-Interesting, we can run this in debug mode with this command:
-
-o DEBUG=ToDo:* npm start
-
-Learn something new every day!
 
 ### Other ToDo Tutorials I am looking At
 
