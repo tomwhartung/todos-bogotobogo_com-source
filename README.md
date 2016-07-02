@@ -18,7 +18,9 @@ We are using ubuntu, both 14.04 and 16.04 (for now anyway).
 (1) Install node, npm, and express
   * For details on Ubuntu 14.04, see the tutorial
   * For details on Ubuntu 16.04, see "Installing express on Ubuntu 16.04" below
+
 (2) git clone git@github.com:tomwhartung/todos-bogotobogo_com-source.git
+
 (3) Run these commands
 ```
 mkdir todos-bogotobogo_com
@@ -35,6 +37,7 @@ DEBUG=ToDo:* npm start  // To run in debug mode
     https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
   * For details on Ubuntu 16.04, see:
     https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
+
 (5) Load in browser:
    http://localhost:8888/
 
